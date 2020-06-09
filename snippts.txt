@@ -1,0 +1,8 @@
+docker-compose up -d
+docker-compose start
+docker-compose stop
+docker-compose restart jenkins
+docker-compose dowm   this will delete all the container
+
+docker cp /home/marco/.ssh/id_rsa jenkins:/tmp/id_rsa
+ssh -i /tmp/id_rsa remote_user@remote-host
